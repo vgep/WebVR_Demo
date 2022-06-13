@@ -6,7 +6,7 @@ var scene = new THREE.Scene();
 
 // Add camera (fov, aspect, near, far)
 var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.2, 100);
-camera.position.z = 4; //Kameraabstand
+camera.position.z = 4; 
 
 // Load background texture
 var loader = new THREE.TextureLoader();
